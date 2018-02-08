@@ -53,7 +53,7 @@ sudo sh install_salt.sh -M
 Install git and get all necessary artefacts (salt files and Ambari blueprints) from repository:
 ```
 sudo yum -y install git
-sudo git clone https://xxx@bitbucket.org/salt.git /srv
+sudo git clone https://github.com/vdovychenko/hadoop-automation-blueprints.git /srv
 sudo chmod 646 /srv/pillar/ambari.sls
 ```
 
