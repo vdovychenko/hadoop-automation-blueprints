@@ -1,0 +1,22 @@
+{
+"blueprint" : "hdp",
+"default_password" : "hadoop",
+"host_groups" :[
+   {
+     "name" : "master_group_1",
+     "hosts" : [
+       {
+         "fqdn" : "master-01.cap"
+       }
+     ]
+   },
+   {
+     "name" : "data_group_1",
+     "hosts" : [
+       {
+         "fqdn" : "data-01.cap"
+       }
+     ]
+   }
+]
+}
